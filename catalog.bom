@@ -1,4 +1,6 @@
 brooklyn.catalog:
+  bundle: io.brooklyn.dns.brooklyn-dns
+  version: 0.3.0-SNAPSHOT   #  BROOKLYN_DNS_VERSION
   items:
   - classpath://brooklyn-dns-bind-and-registration.bom
   - classpath://brooklyn-dns-etc-hosts-generator.bom
